@@ -7,7 +7,6 @@ from frappe.utils import getdate, today
 
 
 class Students(Document):
-	pass
 	def validate(self):
 		if self.dob:
 			a=getdate(self.dob)

@@ -42,6 +42,7 @@
   {
    "fieldname": "age",
    "fieldtype": "Int",
+   "is_virtual": 1,
    "label": "Age"
   },
   {
@@ -58,6 +59,7 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "is_virtual": 1,
    "label": "Full Name",
    "options": "doc.first_name + \" \" + doc.last_name"
   },
@@ -106,7 +108,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-21 15:20:15.386809",
+ "modified": "2026-07-21 17:49:19.000959",
  "modified_by": "Administrator",
  "module": "Library App",
  "name": "Students",

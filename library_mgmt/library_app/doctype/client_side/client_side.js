@@ -5,7 +5,7 @@ frappe.ui.form.on("client_side", {
         }).then((r) => {
             frappe.msgprint(r.message);
         });
-    },
+    },  
 
     // onload(frm){
     //     frappe.throw("Hello from onload method");
