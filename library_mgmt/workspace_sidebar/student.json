@@ -1,0 +1,28 @@
+{
+ "app": "library_mgmt",
+ "creation": "2026-07-21 16:57:26.720490",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "for_user": "Administrator",
+ "header_icon": "alarm-clock-minus",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Student",
+   "link_to": "Student",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-21 16:59:05.652645",
+ "modified_by": "Administrator",
+ "name": "Student",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Student"
+}
