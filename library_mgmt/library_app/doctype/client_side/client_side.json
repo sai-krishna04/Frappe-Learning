@@ -2,12 +2,16 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
+ "autoname": "format:TEST-{###}",
  "creation": "2026-07-20 11:09:17.894931",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "age1"
+  "last",
+  "full",
+  "age1",
+  "child"
  ],
  "fields": [
   {
@@ -19,15 +23,32 @@
    "fieldname": "age1",
    "fieldtype": "Int",
    "label": "Age"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "CHild",
+   "options": "Child Doc"
+  },
+  {
+   "fieldname": "last",
+   "fieldtype": "Data",
+   "label": "last"
+  },
+  {
+   "fieldname": "full",
+   "fieldtype": "Data",
+   "label": "Full"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-20 11:09:42.147757",
+ "modified": "2026-07-21 11:22:05.721096",
  "modified_by": "Administrator",
  "module": "Library App",
  "name": "client_side",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

@@ -8,17 +8,12 @@
  "engine": "InnoDB",
  "field_order": [
   "column_break_capf",
-  "fee",
   "student",
   "fee_type",
-  "child"
+  "fee_paid",
+  "payment"
  ],
  "fields": [
-  {
-   "fieldname": "fee",
-   "fieldtype": "Int",
-   "label": "Fee Paid"
-  },
   {
    "fieldname": "student",
    "fieldtype": "Link",
@@ -37,19 +32,24 @@
    "options": "child"
   },
   {
-   "fieldname": "child",
-   "fieldtype": "Table",
-   "label": "Child",
-   "options": "Child Doc"
+   "fieldname": "fee_paid",
+   "fieldtype": "Int",
+   "label": "Fee Paid"
+  },
+  {
+   "fieldname": "payment",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "UPI\nCASH\nCARD"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-20 10:59:39.113239",
+ "modified": "2026-07-21 15:21:56.773952",
  "modified_by": "Administrator",
  "module": "Library App",
- "name": "ExamFee",
+ "name": "FeePayment",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
